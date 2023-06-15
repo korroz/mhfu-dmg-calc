@@ -4,7 +4,12 @@ import { DamageCalculator } from './DamageCalculator';
 function App() {
   return (
     <>
-      <DamageCalculator />
+      <header></header>
+      <main>
+        <DamageCalculator />
+        <DamageCalculator />
+      </main>
+      <footer></footer>
     </>
   );
 }

@@ -2,5 +2,21 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  /* text-align: center; */
+}
+
+label, input, select {
+  display: block;
+}
+
+h2 { font-size: 1.5rem;}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.damage p {
+  font-size: 1.25rem;
 }
